@@ -13,6 +13,7 @@ namespace HandheldHalting
             public int Argument { get; set; }
             public bool IsVisited { get; set; }
         }
+
         static void Main(string[] args)
         {
             string[] input = File.ReadAllLines(@"C:\Code\AdventOfCode\AoC_2020\HandheldHalting\input.txt");
